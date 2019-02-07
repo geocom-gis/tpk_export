@@ -83,4 +83,4 @@ Parameter | Description
 ------
 ## Known issues
 
-None so far.
+None.
