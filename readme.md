@@ -13,13 +13,13 @@ For more information please contact: support@geocom.ch.
 In order to use the tool you need: 
 - An installation of Python 2.7 
 - An installation of arcpy (preinstalled, if you have an ArcMap installed)
-
+- ArcGIS Desktop 10.3.1 - 10.6.1
 
 ------
 ## Installation 
 
 1. Create a folder for the script.
-2. Download abd save the tool into the folder.
+2. Download and save the tool into the folder.
 3. Prepare folder structure, example can be found below.
 
 ------
@@ -36,9 +36,13 @@ In order to use the tool you need:
 #### Examples
 
 **Folder structure**
+
 Scripts folder: C:\python_scripts
+
 Input folder:   C:\mxds_to_export
+
 output folder:  C:\latest_tpks
+
 log folder:     C:\export_logs
 
 **Minimal input**
@@ -76,8 +80,8 @@ Parameter | Description
  -f,   --format | The format of the tiles. Valid inputs are: PNG, PNG8, PNG16, PNG24, PNG32, JPG, MIXED (default: PNG).
  -dl,  --detailLevel | The level of detail. If not set it will be parsed from the scheme file.
  -sc,  --schemeName | The name of the scheme file to be applied (including file ending). It is considered to be in the input directory (see -i). Asks for user interaction if not set.
- -sum, --summary: | Summary text to be added to the tile packages. If not set the name of the .mxd will be used.  
- -t,   --tags: | The tags to be added to the tile packages (comma separated). If not set the name of the mxd will be used.
+ -sum, --summary | Summary text to be added to the tile packages. If not set the name of the .mxd will be used.  
+ -t,   --tags | The tags to be added to the tile packages (comma separated). If not set the name of the mxd will be used.
 
 
 ------
