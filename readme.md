@@ -33,7 +33,7 @@ In order to use the tool you need:
 3. Hit 'Enter' and wait for the results.
 
 
-#### Examples
+### Examples
 
 **Folder structure**
 
